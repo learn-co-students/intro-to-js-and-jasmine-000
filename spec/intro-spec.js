@@ -5,7 +5,6 @@ describe('Intro to Jasmine and JS basics', function() {
     it('should return your fav icecream', function() {
       expect(favIceCream("mint chocolate chip")).toBe("I love mint chocolate chip");
     });
-    
   });
 
   describe('#shouting', function() {
